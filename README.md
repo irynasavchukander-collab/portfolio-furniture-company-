@@ -76,7 +76,7 @@ Interactive Tableau dashboard:
 (https://public.tableau.com/app/profile/iryna.savchuk/viz/portfolioproject1_17710125539270/SalesPerfomencForFurtitureCompany?publish=yes)
 
 ## Files
-- `Portfolio_Project_2_1.ipynb` — full analysis notebook (SQL extraction, EDA, visualizations, statistical tests, business recommendations)
+- `Portfolio_Project_2_1(2).ipynb` — full analysis notebook (SQL extraction, EDA, visualizations, statistical tests, business recommendations)
 
 ## Author
 Iryna Savchuk
