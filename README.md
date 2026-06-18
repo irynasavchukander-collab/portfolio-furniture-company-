@@ -42,15 +42,19 @@ conversion rate but lower volume — a key growth lever. The US is the top reven
 market (~$13.9M).
 
 ![Revenue Share by Continent](images/Revenue_Share_By_Continent.png)
+*The Americas account for the majority of total revenue, driven by order volume rather than higher AOV.*
+
 
 Scale revenue in the Americas by optimizing logistics for high order volumes, 
 while testing premium segments to lift AOV. Grow Europe's revenue by increasing 
 order volume, leveraging its already high conversion rate.
 
 ![Revenue vs Conversion Rate by Top-10 Countries](images/Revenue_Vs_Conversion_Rate_by_Top-10_Countries.png)
+*The US leads in revenue by scale; Germany and Spain show the highest conversion rates — engaged markets with volume growth potential.*
 
 - **Product mix:** Sofas, chairs, and beds drive the most revenue; bookcases drive the most units. A recommended mix is ~60-70% mass-market units paired with ~40-50% revenue share from premium categories, supported by cross-selling.
   ![Top 10 Categories: AOV vs Sold Items](images/Top-10_Categories_AOV_vs_Sold_item.png)
+*Sofas and beds carry high AOV but low volume; bookcases and chairs show the opposite — revealing the premium vs. mass-market split.*
 
 
 ### Seasonality & Sales Dynamics
@@ -59,20 +63,27 @@ Paid Search is the most sensitive channel during peak season. Desktop + Americas
 are the main drivers of peak revenue.
 
 ![Revenue Dynamic](images/Revenue_Dynamic.png)
+*Distinct revenue spikes in late November and December correspond to Black Friday and pre-holiday campaigns; January shows residual demand.*
 
 - **Channels & devices:**
   Desktop drives ~60% of revenue; Organic Search is the leading channel. Mobile is a growth opportunity for mass-market products.
   Focus on Desktop for premium segments (upselling, financing options). Invest in Mobile for mass-market products (discounts, quick deals, bundles). Concentrate seasonal Paid Search budget around the November–December peak.
 
 ![Heatmap: Revenue by Traffic Channel and Device](images/Heatmap_Revenue_by_Traffic_Channel_and_Device.png)
+*Organic Search and Paid Search on Desktop are the dominant revenue combinations; Mobile shows meaningful potential in both channels.*
 
 - **Loyalty/email program:** ~70% of users confirm their email, ~17% unsubscribe. Subscribed users generate 5x more orders and revenue — retention should be prioritized.
-- 
+ Reduce unsubscribe rates through personalized, segmented campaigns. For 
+unsubscribed users, leverage alternative channels (push notifications, targeted 
+ads) — they still purchase and spend more per transaction.
+ 
 - **Statistical analysis:** Revenue is strongly and significantly correlated with session volume (Spearman), and revenue trends are synchronized across continents and user segments.
 
 ## Dashboard
 Interactive Tableau dashboard: 
 ![Tableau Dashboard Preview](images/Sales_Perfomenc_For_Furtiture_Company.png)
+*Interactive dashboard consolidating all key metrics with dynamic filtering by continent, device, and traffic channel.*
+
 (https://public.tableau.com/app/profile/iryna.savchuk/viz/portfolioproject1_17710125539270/SalesPerfomencForFurtitureCompany?publish=yes)
 
 ## Files
