@@ -41,7 +41,7 @@ not_registed_acc = sales[sales["is_registered_user"].isnull()]    # anonymous
 conversion rate but lower volume — a key growth lever. The US is the top revenue 
 market (~$13.9M).
 
-![Revenue Share by Continent](images/RevenueShareByContinent.png)
+![Revenue Share by Continent](images/Revenue_Share_By_Continent.png)
 *The Americas account for the majority of total revenue, driven by order volume rather than higher AOV.*
 
 
@@ -62,7 +62,7 @@ Revenue peaks in late November–December (Black Friday, pre-holiday promotions)
 Paid Search is the most sensitive channel during peak season. Desktop + Americas 
 are the main drivers of peak revenue.
 
-![Revenue Dynamic](images/Revenue_Dynamic.png)
+![Revenue Dynamic](images/Dynamic_Revenue.png)
 *Distinct revenue spikes in late November and December correspond to Black Friday and pre-holiday campaigns; January shows residual demand.*
 
 - **Channels & devices:**
