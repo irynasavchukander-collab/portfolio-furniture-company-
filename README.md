@@ -41,7 +41,7 @@ not_registed_acc = sales[sales["is_registered_user"].isnull()]    # anonymous
 conversion rate but lower volume — a key growth lever. The US is the top revenue 
 market (~$13.9M).
 
-![Revenue Share by Continent](images/Revenue_Share_By_Continent.png)
+![Revenue Share by Continent](images/RevenueShareByContinent.png)
 *The Americas account for the majority of total revenue, driven by order volume rather than higher AOV.*
 
 
