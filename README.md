@@ -20,6 +20,14 @@ to deliver actionable recommendations for marketing and assortment strategy.
 349,545 sessions, 18 columns, covering Nov 1, 2020 – Jan 31, 2021. 
 Source: public e-commerce training dataset (`data-analytics-mate.DA`).
 
+
+```python
+registred_acc = sales[sales["is_registered_user"].notnull()]      # session with account
+not_registed_acc = sales[sales["is_registered_user"].isnull()]    # anonymous
+```
+
+ **Note on terminology:** The `is_registered_user` field represents an account ID linked to a session, not a boolean registration flag. A missing value means the session has no associated account (anonymous session), rather than indicating a user who declined to register. In this analysis, "registered" refers to sessions linked to an account, and "unregistered" refers to fully anonymous sessions. This distinction is important: the comparison reflects account-linked vs. anonymous traffic, not necessarily registered vs. unregistered site visitors in the conventional sense.
+
 ## Key Questions Answered
 - Which continents and countries generate the most revenue, and through what mechanism (volume vs. AOV vs. conversion)?
 - Which product categories drive revenue vs. order volume, and what is the optimal premium/mass-market mix?
