@@ -36,14 +36,44 @@ not_registed_acc = sales[sales["is_registered_user"].isnull()]    # anonymous
 - Are there statistically significant relationships between sessions, revenue, regions, and user segments?
 
 ## Key Findings & Recommendations
-- **Geography:** The Americas lead in revenue due to order volume, not AOV. Europe has the highest conversion rate but lower volume — a growth lever. The US is the top revenue market (~$13.9M).
+
+- **Geography:** The Americas lead in revenue due to order volume, not AOV. Europe has the highest 
+conversion rate but lower volume — a key growth lever. The US is the top revenue 
+market (~$13.9M).
+
+![Revenue Share by Continent](images/Revenue_Share_By_Continent.png)
+
+Scale revenue in the Americas by optimizing logistics for high order volumes, 
+while testing premium segments to lift AOV. Grow Europe's revenue by increasing 
+order volume, leveraging its already high conversion rate.
+
+![Revenue vs Conversion Rate by Top-10 Countries](images/Revenue_Vs_Conversion_Rate_by_Top-10_Countries.png)
+
 - **Product mix:** Sofas, chairs, and beds drive the most revenue; bookcases drive the most units. A recommended mix is ~60-70% mass-market units paired with ~40-50% revenue share from premium categories, supported by cross-selling.
-- **Channels & devices:** Desktop drives ~60% of revenue; Organic Search is the leading channel. Mobile is a growth opportunity for mass-market products.
+  ![Top 10 Categories: AOV vs Sold Items](images/Top-10_Categories_AOV_vs_Sold_item.png)
+
+
+### Seasonality & Sales Dynamics
+Revenue peaks in late November–December (Black Friday, pre-holiday promotions). 
+Paid Search is the most sensitive channel during peak season. Desktop + Americas 
+are the main drivers of peak revenue.
+
+![Revenue Dynamic](images/Revenue_Dynamic.png)
+
+- **Channels & devices:**
+  Desktop drives ~60% of revenue; Organic Search is the leading channel. Mobile is a growth opportunity for mass-market products.
+  Focus on Desktop for premium segments (upselling, financing options). Invest in Mobile for mass-market products (discounts, quick deals, bundles). Concentrate seasonal Paid Search budget around the November–December peak.
+
+![Heatmap: Revenue by Traffic Channel and Device](images/Heatmap_Revenue_by_Traffic_Channel_and_Device.png)
+
 - **Loyalty/email program:** ~70% of users confirm their email, ~17% unsubscribe. Subscribed users generate 5x more orders and revenue — retention should be prioritized.
+- 
 - **Statistical analysis:** Revenue is strongly and significantly correlated with session volume (Spearman), and revenue trends are synchronized across continents and user segments.
 
 ## Dashboard
-Interactive Tableau dashboard: [View on Tableau Public](https://public.tableau.com/app/profile/iryna.savchuk/viz/portfolioproject1_17710125539270/SalesPerfomencForFurtitureCompany?publish=yes)
+Interactive Tableau dashboard: 
+![Tableau Dashboard Preview](images/Sales_Perfomenc_For_Furtiture_Company.png)
+(https://public.tableau.com/app/profile/iryna.savchuk/viz/portfolioproject1_17710125539270/SalesPerfomencForFurtitureCompany?publish=yes)
 
 ## Files
 - `Portfolio_Project_2_1.ipynb` — full analysis notebook (SQL extraction, EDA, visualizations, statistical tests, business recommendations)
